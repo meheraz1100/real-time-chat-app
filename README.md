@@ -58,10 +58,10 @@ cd real-time-chat-app
 Install Server Dependencies
 
 
-```
+```bash
 cd server
 npm install
-```
+
 
 Set up Environment Variables
 Create a .env file inside the server folder:
@@ -72,21 +72,21 @@ MONGO_URI=your_mongo_connection_string
 JWT_SECRET=your_jwt_secret
 Start the Backend Server
 
-```
+```bash
 npm start
 Install Client Dependencies
-```
 
-```
+
+```bash
 cd ../client
 npm install
-```
+
 
 Start the React App
 
-```
+```bash
 npm run dev
-```
+
 📁 Project Structure
 
 real-time-chat-app/
