@@ -56,12 +56,13 @@ A full-stack real-time chat application built using **React**, **TailwindCSS**, 
 git clone https://github.com/meheraz1100/real-time-chat-app.git
 cd real-time-chat-app
 Install Server Dependencies
+```
 
 
 ```bash
 cd server
 npm install
-
+```
 
 Set up Environment Variables
 Create a .env file inside the server folder:
@@ -75,17 +76,19 @@ Start the Backend Server
 ```bash
 npm start
 Install Client Dependencies
+```
 
 
 ```bash
 cd ../client
 npm install
-
+```
 
 Start the React App
 
 ```bash
 npm run dev
+```
 
 📁 Project Structure
 
