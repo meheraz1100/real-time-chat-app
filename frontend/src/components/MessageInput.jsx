@@ -79,6 +79,7 @@ const MessageInput = () => {
             onChange={(e) => setText(e.target.value)}
           />
           <input
+            
             type="file"
             accept="image/*"
             className="hidden"
