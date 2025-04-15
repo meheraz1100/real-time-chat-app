@@ -75,10 +75,10 @@ Start the Backend Server
 
 ```bash
 npm start
-Install Client Dependencies
 ```
 
 
+Install Client Dependencies
 ```bash
 cd ../client
 npm install
@@ -120,7 +120,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 🙋‍♂️ Author
 [Mosaiyeb Meheraz](https://github.com/meheraz1100)
 
-🔗 GitHub
+🔗 [GitHub](https://github.com/meheraz1100)
 
 📧 [Email](mosaiyebmeheraz@gmail.com)
 
