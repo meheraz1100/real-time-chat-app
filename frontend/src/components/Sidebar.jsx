@@ -54,12 +54,13 @@ const Sidebar = () => {
             `}
           >
             <div className="relative mx-auto lg:mx-0">
-              <h1>{user.name}</h1>
+              
+              {/* <h1>{user.fullName}</h1> */}
               <img
-                src={user.profilePic || "/avatar.png"}
+                src={user?.profilePic || "/avatar.png"}
                 alt={user.fullname}
                 className="size-12 object-cover rounded-full"
-              />
+                />
               {onlineUsers.includes(user._id) && (
                 <span
                   className="absolute bottom-0 right-0 size-3 bg-green-500 
@@ -72,7 +73,9 @@ const Sidebar = () => {
             <div className="hidden lg:block text-left min-w-0">
               <div className="font-medium truncate">{user.fullname}</div>
               <div className="text-sm text-zinc-400">
+              <h1>{user.fullName}</h1>
                 {onlineUsers.includes(user._id) ? "Online" : "Offline"}
+                
               </div>
             </div>
           </button>
