@@ -3,6 +3,7 @@
 A full-stack real-time chat application built using **React**, **TailwindCSS**, **Node.js**, **Express**, **Socket.IO**, and **MongoDB**. This app allows users to register, log in, and engage in instant messaging with other users in real time.
 
 ---
+<img width="1908" height="907" alt="image" src="https://github.com/user-attachments/assets/a2417f00-da93-454c-9969-fc9c57cde9cd" />
 
 ## 🚀 Live Demo
 
